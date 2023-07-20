@@ -17,7 +17,8 @@
                 <a href="{{ route('products.show', ['product' => $product['id']]) }}">
                     <li class="product">
                         {{ $product['id'] }}, {{ $product['type'] }}, {{ $product['name'] }}, {{ $product['color'] }},
-                        {{ $product['price'] }} LE</li>
+                        {{ $product['price'] }} LE
+                    </li>
                 </a>
             @endforeach
         </ul>

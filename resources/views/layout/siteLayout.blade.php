@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
-    <link rel="stylesheet" href="{{ url('css/special.css') }}">
+    <link rel="stylesheet" href="{{ url('css/custom.css') }}">
 
 </head>
 
