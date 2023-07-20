@@ -9,7 +9,55 @@ nav a {
     font-weight: bold
 }
 
-nav a:hover {
+nav a:hover,
+.new-product-link:hover {
     text-decoration: underline;
-    color: #505050
+    color: darkcyan;
+}
+
+.description {
+    color: #515151;
+}
+
+.product {
+    border: 1px solid;
+    border-radius: 5px;
+    background: darkcyan;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+.product:hover {
+    background: rgb(18, 170, 170);
+}
+
+.new-product-link {
+    display: block;
+    text-align: center;
+    color: #222;
+}
+
+.form {
+    padding: 30px 80px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.input-container {
+    padding: 8px;
+}
+
+input {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: darkcyan !important;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }

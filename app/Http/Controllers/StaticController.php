@@ -18,8 +18,4 @@ class StaticController extends Controller
     public function contact(){
         return view('contact');
     }
-
-    public function products(){
-        return view('products');
-    }
 }
