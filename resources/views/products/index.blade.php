@@ -6,10 +6,6 @@
     @php(print $pageName)
 @endsection
 
-@section('pageTitle')
-    @php(print $pageName)
-@endsection
-
 @section('pagedescription')
     @if (count($products) > 0)
         <ul>

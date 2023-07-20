@@ -6,10 +6,6 @@
     @php(print $pageName)
 @endsection
 
-@section('pageTitle')
-    @php(print $pageName)
-@endsection
-
 @section('pagedescription')
     <p class="product">
         {{ $product['id'] }}, {{ $product['type'] }}, {{ $product['name'] }}, {{ $product['color'] }},

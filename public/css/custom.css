@@ -61,3 +61,8 @@ button {
     padding: 5px;
     border-radius: 5px;
 }
+
+.error-message {
+    font-size: 13px;
+    color: red;
+}

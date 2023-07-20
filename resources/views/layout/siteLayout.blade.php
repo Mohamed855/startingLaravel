@@ -34,11 +34,11 @@
 
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="flex justify-center">
-                <h1>@yield('pageTitle')</h1>
+                <h1>@yield('title')</h1>
             </div>
 
             <div class="description mt-8">
-                <p>@yield('pagedescription')</p>
+                @yield('pagedescription')
             </div>
 
         </div>
