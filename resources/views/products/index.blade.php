@@ -22,5 +22,5 @@
         This is no @php(print $pageName) yet
     @endif
 
-    <a class="new-product-link" href="{{ route('products.create') }}">add new product</a>
+    <a class="product-link" href="{{ route('products.create') }}">add new product</a>
 @endsection
